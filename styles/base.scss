@@ -1,0 +1,39 @@
+$shadow-1:rgba(99,99,99,0.2) 0px 2px 8px 0px;
+$gray-color:#f8f8f8;
+$gray-color-hover:#eaeaea;
+$primary-color:#3f72b0;
+$primary-color-hover:#2a61a3;
+
+.button__primary{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 1rem;
+    background-color: $primary-color;
+    color: $gray-color;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    &:hover{
+        background-color: $primary-color-hover;
+    }
+}
+
+.button__secondary{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.4rem 1rem;
+    background-color: #fff;
+    color: $primary-color;
+    border: none;
+    outline: none;
+    border-radius: .2rem;
+    cursor: pointer;
+    &:hover{
+        background-color: $gray-color-hover;
+    }
+}
